@@ -95,6 +95,7 @@ blockquote {
 .light {
 	font-weight: bold;
 	color: rebeccapurple;
+	text-decoration: none;
 }
 .tagline {
 	text-align: center;
