@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	background-color: black;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -30,7 +30,6 @@ header {
 	color: #fff;
 	font-weight: bold;
 	text-align: undefined;
-	width: 20%;
 	float: left;
 	margin-top: 15px;
 	margin-left: 25px;
@@ -68,6 +67,16 @@ blockquote {
 	display: inline-block;
 	font-style: italic;
 }
+
+.overlay {
+	opacity: 40%;
+	background-color: black;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .getintouch {
 /*	font-style*/
 	text-decoration: none;
@@ -85,8 +94,8 @@ blockquote {
 .hero {
 	background-image: url("../images/sql-bg-logo.png");
 	background-size: cover;
-	background-color: bisque;
-	padding-top: 150px;
+	background-color: #999;
+	padding-top: 20px;
 	padding-bottom: 50px;
 /*	background-attachment: scroll;*/
 /*	background-position: 20% 53%;*/
@@ -94,7 +103,7 @@ blockquote {
 }
 .light {
 	font-weight: bold;
-	color: rebeccapurple;
+	color: #6b9933;
 	text-decoration: none;
 }
 .tagline {
@@ -313,11 +322,15 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	padding-bottom: 10px;
 	width: 100%;
 	float: none;
 	display: none;
 }
-
+	.overlay {
+		width: auto;
+		font-size: small;
+	}
 header nav ul {
 }
 nav ul li {
@@ -348,6 +361,7 @@ nav ul li {
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
+	text-align: center;
 }
 .parallax {
 	text-align: center;
@@ -410,9 +424,12 @@ nav ul li {
 	width: 100%;
 	float: none;
 	overflow: auto;
-	display: inline-block;
+	display: none;
 	background-color: mediumpurple;
 }
+	.overlay {
+		width: auto;
+	}
 header nav ul {
 	margin-top: 4px;
 	padding: 0px;
