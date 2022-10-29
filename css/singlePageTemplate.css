@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	background-color: black;
+	background-color: rgb(185, 185, 185);
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -48,12 +48,12 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 10px;
 /*	text-align: left;*/
-	margin-right: 25px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	transition: all 0.3s linear;
+	margin-right: 1em;
+	/* letter-spacing: 2px; */
+	/* font-weight: bold; */
+	/* transition: all 0.3s linear; */
 }
 ul li a {
 	color: #FFFFFF;
