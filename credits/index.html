@@ -7,7 +7,7 @@
 	<link href="../css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 	
 </head>
-<body class="">
+<body class="credits" style="width:600px">
 	<script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_4UvGgDetcJX4IRbQC2HtSw4D0i5EdZ8hoDgdunc4eyK',{api_host:'https://app.posthog.com'})
@@ -17,23 +17,23 @@
 				margin: flex;
 			} */
 
-			#gallery-1 .gallery-caption {
-				margin-left: 0;
+			.credits {
+				padding: 16px;
+				font-size: .8rem;
 			}
+
 			.row {
 				display: flex;
-				max-width: fit-content;
 				flex-wrap: wrap;
 				padding: 10px 4px;
-				vertical-align: middle;
-				align-content: center;
-				min-height: max-content;
-				
+				float:left;
+				position: relative;
+				width:50%;
 			}
 			.row img {
-				margin: 0 4px 4px 10px;
+				/* margin: 0 4px 4px 10px; */
 				/* width: 10%; */
-				max-width: 200px;
+				/* max-width: 200px; */
 			}
 		</style>
 	
@@ -41,6 +41,12 @@
 		<h1>
 			Music 
 		</h1>
+		</div>
+		<div>
+		<div style="float:right">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7xtVS1MHwGQwAMVv6fLUFL?utm_source=generator&theme=0" width="300" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+		</div>
 		<h3>
 			Bassist
 		</h3> 
@@ -76,13 +82,12 @@
 				</li>
 			</ul>
 
-		</h3>
-		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7xtVS1MHwGQwAMVv6fLUFL?utm_source=generator&theme=0" width="300%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		<div style="clear:both"></div>
+
 		<h1>
 			Video Games (2006-2011)
 		</h1>
-		<div class="clear">
-		</div>
+
 		<h2>
 			Mostly QA manager or lead.
 		</h2>
@@ -234,8 +239,9 @@
 </ul>
 </div>
 	</div>
-	<div class="">
-		<div class="row">
+
+	<div style="float:right;">
+		<div class="">
 					<img width="92" height="126" src="584x800-BREACH-Key-Art-e1297994799895.jpg" alt="Breach (XBLA, PC)" title="Breach (XBLA, PC)"/>
 					<img width="92" height="126" src="age3Asian.jpg" alt="Age of Empires III: Asian Dynasties (Mac OS X)" title="Age of Empires III: Asian Dynasties (Mac OS X)"/>
 			
@@ -375,8 +381,7 @@
 					<img width="92" height="126" src="box-wii-cradleofrome.gif" alt="Cradle of Rome (Wii)" title="Cradle of Rome (Wii)"/>
 			
 			</div>
-
-
+		</div>
 
 </div>
 <p>&nbsp;</p>
